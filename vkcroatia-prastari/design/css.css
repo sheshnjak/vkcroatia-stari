@@ -1,0 +1,123 @@
+/* CSS Document - design by tome
+boje:	primary:	#0066AA
+		dark:		#002D4A
+		medium:		#9FCBE8
+		light:		#E6F1F9
+		rich:		#005792		*/
+/* podjela sadrzaja				*/
+.gori {
+	text-align: center;
+	color: #DAEDF7;
+	font-size: 18px;
+	padding-top: 77px;
+}
+.sredina {
+	padding: 1em;
+	text-align: justify;
+	font-size: x-small;
+}
+.livo {
+	width: 180px;
+	background-color: #9FCBE8;
+	font-size: 13px;
+}
+.vijesti {
+	width: 175px;
+	top: 100px;
+	right: 0;
+	font-size: 10px;
+	text-align: center;
+}
+/*  redefinicije tagova */
+body{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #002D4A;
+	background-color: #E6F1F9;
+	scrollbar-base-color: #9FCBE8;
+	scrollbar-arrow-color: #002D4A;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	width: 100%;
+	font-size: medium;
+	font-weight: bold;
+	margin-top: 0.5em;
+	text-align: center;
+}
+h2 {
+	font-size: small;
+	font-weight: bold;
+	text-align: center;
+}
+h3 {
+	font-size: x-small;
+	font-weight: bold;
+	text-align: left;
+}
+img {
+	margin: 5px;
+}
+a {
+	font-weight: bold;
+	color: #002D4A;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: underline;
+}
+/*  navigacija	*/
+#nav {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#nav ul {
+	margin: 0;
+	padding:0;
+}
+#nav li {
+	margin: 0;
+	padding:0;
+}
+#nav li a {
+	display: block;
+	width: 100%;
+	padding: 0.2em 0.2em 0.2em 0.5em;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: solid 2px #E6F1F9;
+}
+#nav li a:link, #nav li a:visited {
+	color: #00334C;
+	background-color: #9FCBE8;
+}
+#nav li a:hover {
+	color: #002D4A;
+	background-color: #E6F1F9;
+}
+#nav li a:active {
+	color: #00334C;
+	background-color: #0070A8;
+}
+/* tablice na stranicama	*/		
+.tablica {
+	border: solid 2px #D5E7F4;
+	text-align: center;
+	font-size: x-small;
+}
+.data {
+	background-color: #D5E7F4;
+	padding: 0 10px 0 10px;
+}
+.dataAC {
+	padding: 0 10px 0 10px;
+}

@@ -1,0 +1,85 @@
+/* CSS Print - design by: tome 
+$$$   za printanje   $$$
+boje:	plavo-monochrome
+		primary:	#0066AA
+		dark:		#002D4A
+		medium:		#9FCBE8
+		light:		#E6F1F9
+		rich:		#005792		*/
+/* podjela sadrzaja				*/
+.gori {
+	display: none;
+}
+.sredina {
+	text-align: justify;
+	font-size: 12px;
+}
+.livo {
+	display: none;
+}
+.vijesti {
+	display: none;
+}
+/*  redefinicije tagova */
+body{
+	filter: gray;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+h1 {
+	width: 100%;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 1em;
+	text-align: center;
+}
+h2 {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+h3 {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+}
+table {
+	font-size: x-small;
+}
+a {
+	font-weight: bold;
+	color: #000000;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	letter-spacing: 0.2ex;
+}
+/*  navigacija	*/
+#nav {}
+#nav ul {}
+#nav li {}
+#nav li a {}
+#nav li a:link, #nav li a:visited {}
+#nav li a:hover {}
+#nav li a:active {}
+/* tablice na stranicama		*/
+.tablica {
+	border: solid 2px #AAAAAA;
+	page-break-inside: avoid;
+}
+.data {
+	padding: 0 10px 0 10px;
+}
+.dataAC {
+	background-color: #999999;
+	padding: 0 10px 0 10px;
+}
