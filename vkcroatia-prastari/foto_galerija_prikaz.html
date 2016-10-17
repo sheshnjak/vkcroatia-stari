@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-2"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Foto galerija</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
+<style type="text/css">
+	body{
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:10px;
+	color:#002D4A;
+	background-color:#E6F1F9;
+	margin:0;
+	margin-left:1em;
+	scrollbar-base-color: #9FCBE8;
+	scrollbar-arrow-color: #002D4A;
+	overflow: auto;
+	}
+	a{
+	font-weight:bold;
+	text-decoration:none;
+	color:#002D4A
+	}
+</style>
+<script src="design/foto-galerija.js" type="text/javascript"></script>
+</head>
+
+<body>
+<a href='#' onclick='nazad()'>&lt;&lt;&lt;</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href='#' onClick='naprid()'>&gt;&gt;&gt;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='#' onClick='otvori_galeriju()'>Povratak u galeriju</a><br />
+<script language="JavaScript">
+	document.write("<img src='slike/foto_galerija/", slike[window.name], "' /><br/>", opisi[window.name]);
+	document.close();
+</script>
+</body>
+</html>
