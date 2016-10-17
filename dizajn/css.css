@@ -1,0 +1,160 @@
+/* design by ..::sheshnjak ::.. */
+* { margin: 0; padding: 0;}
+a:link {color: #2086CA; text-decoration: none; font-weight: bold;}
+a:visited {color: #2086CA; text-decoration: none; font-weight: bold;}
+a:hover {color: #2086CA; text-decoration: underline;}
+a:active {color: #2086CA; text-decoration: line-through;}
+body {
+background: #0066AA url(pozadina.png) repeat-y center top;
+color: #000000;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 0.6em;}
+p,cite,code,ul { font-size: 1.2em; padding-bottom: 1.2em;}
+ul { margin-left: 1.2em;}
+blockquote {	/* napomena ispod slike */
+background: #EFFECC;
+color: #555555;
+display: block;
+clear: both;
+font-size: 1em;
+margin-bottom: 1.2em;
+margin-top: -20px;
+padding: 5px;}
+h1,h2,h3 {
+font-family: Georgia, "Times New Roman", Times, serif;
+letter-spacing: -0.25pt;
+color: #2086CA;}
+h2 { font-size: 1.9em; margin: 0.75em 0 0.5em 0;}
+h3 { font-size: 1.75em; font-weight: lighter; margin: 0.75em 0 0.5em 0;}
+img { border: none;}
+.centrirano {text-align:center}
+/* glavni kontejner */
+.kontejner {
+margin: 0 auto;
+width: 702px;}
+/* vrh */
+.vrh {
+background: #0066AA;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 4em;
+letter-spacing: -1pt;
+margin: 0 0 0 36px;
+width: 630px;}
+.vrh a:link, .vrh a:visited {
+color: #FFFFFF;
+display: block;
+line-height: 60px;
+text-decoration: none;
+width: 100%;
+padding-top: 6px;}
+.vrh span { padding-left: 37px;}
+.vrh a:hover { background: #2086CA; color: #FFFFFF;}
+/* zaglavlje */
+.zaglavlje {
+height: 180px;
+margin: 0 auto;
+width: 630px;}
+/* glavniSadrzaj */
+.glavniSadrzaj {float: left; width: 456px;}
+/* clanak */
+.clanak {clear: both;}
+.clanak .datum {
+background: url(datum.png) no-repeat;
+color: #FFFFFF;
+float: left;
+height: 40px;
+text-align: center;
+width: 36px;}
+.clanak .datum div { padding-top: 4px; text-transform: uppercase;}
+.clanak .datum span { font-size: 1.9em; font-family: Georgia, "Times New Roman", Times, serif;}
+.clanak .sadrzajClanka {
+float: left;
+width: 420px;}
+.clanak h1 {
+background: #2086CA;
+color: #FFFFFF;
+line-height: 40px;
+padding-left: 16px;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 2em;
+letter-spacing: -0.2pt;}
+.clanak .tekst {
+padding: 12px 18px;
+text-align: justify;}
+.clanak .tekst .slikaXXL { margin-left: -13px;}
+.clanak .tekst img { padding: 5px;}
+.tekst img.mala {float: right;}
+.clanak .tekst table { width:100%; border:none; text-align:center;}
+.clanak .tekst table thead { font-weight:bold;}
+.clanak .tekst table tr.bold { font-weight:bold;}
+/* navigacija */
+.navigacija {
+float: right;
+margin-right: 37px;
+width: 208px;
+font-size: 1.12em;}
+.navigacija a { text-decoration:none; font-weight: normal;}
+.navigacija h1 {
+background: #0066AA;
+color: #FFFFFF;
+font-size: 1.2em;
+line-height: 40px;
+padding-left: 12px;
+border-right: solid 1px #0066AA;
+margin-right: -1px;
+margin-left: -1px;
+font-family: Verdana, Arial, Helvetica, sans-serif;}
+.navigacija h1 a{
+text-decoration: none;
+color: #FFFFFF;
+font-weight: normal;}
+.navigacija h1 a:hover {
+background: #2086CA;
+color: #FFFFFF;
+border-left: 1px solid #C5CEB2;
+margin-left: -12px;
+padding-left: 11px;}
+.navigacija ul { margin: 0; padding: 0;}
+.navigacija li { border-bottom: 1px solid #D5E8AD; list-style: none;}
+.navigacija li a:link, .navigacija li a:visited {
+background: #E8F6BF url(navigacija.gif) repeat-x;
+font-weight: normal;
+color: #000000;
+display: block;
+padding: 8px 4px 8px 12px;
+text-decoration: none;}
+.navigacija li a:hover,.navigacija li a.trenutnaStranica { background: #2086CA; color: #FFFFFF;}
+/* podnozje */
+.zadnjiRED {clear: both;}
+.podnozje {
+background: #0066AA url(podnozje.png) repeat-x;
+color: #FFFFFF;
+font-size: 1.1em;
+line-height: 40px;
+margin: 0 auto;
+text-align: center;
+width: 630px;}
+.podnozje a {color: #91C5FF; text-decoration: none;}
+.podnozje a:hover {color: #FFFFFF;}
+.cprght { font-weight:normal; clear:both; float: right; margin:-40px 3px 0 0;padding: 0;}
+.cprght a:link { color: #137CF1; text-decoration: none; font-weight: normal; padding: 5px;}
+.cprght a:visited { color: #2086ca; text-decoration: none; font-weight: normal; padding: 5px;}
+.cprght a:hover { color: #FFFFFF; text-decoration: none; font-weight: normal; padding: 5px;}
+
+#lbOverlay {position: fixed;z-index: 9999;left: 0;top: 0;width: 100%;height: 100%;background-color: #000;cursor: pointer;}
+#lbCenter, #lbBottomContainer {position: absolute;z-index: 9999;overflow: hidden;}
+#lbCenter {background-color: #fff;}
+.lbLoading {background: #fff url(loading.gif) no-repeat center;}
+#lbImage {position: absolute;left: 0;top: 0;border: 1px solid #fff;background-repeat: no-repeat;}
+#lbPrevLink, #lbNextLink {display: block;position: absolute;top: 0;width: 50%;outline: none;border: none;}
+#lbPrevLink {left: 0;}
+#lbPrevLink:hover {background: transparent url(prev.png) no-repeat 0 35%;}
+#lbNextLink {right: 0;}
+#lbNextLink:hover {background: transparent url(next.png) no-repeat 100% 35%;}
+#lbBottom {border: 1px solid #fff;padding: 5px;border-top-style: none;}
+#lbCloseLink {display: block;float: right;margin-top: 32px;outline: none;}
+#lbCaption, #lbNumber {margin-right: 71px;}
+#lbNumber {text-align:left;color: #FFF;}
+#lbCaption {color: #FFF;font-weight: bold;text-align: center;}
+#lbCaption div {font-weight: normal;}
+

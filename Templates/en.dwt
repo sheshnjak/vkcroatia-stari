@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-EN">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="Keywords" content="Vaterpolo klub Croatia Turanj, sport, vaterpolo, lopta, pravila, Turanj, Hrvatska" />
+<meta name="DC.Subject" content="Vaterpolo klub Croatia Turanj, sport, vaterpolo, lopta, pravila, Turanj, Hrvatska" />
+<meta name="DC.Title" content="Vaterpolo klub Croatia Turanj" />
+<meta name="Description" content="Web stranice vaterpolo kluba Croatia Turanj. Pravila vaterpola. Povijest vaterpola. Opis i povijest mjesta Turanj." />
+<meta name="DC.Subject" content="Web stranice vaterpolo kluba Croatia Turanj. Pravila vaterpola. Povijest vaterpola. Opis i povijest mjesta Turanj." />
+<meta name="author" content="www.tomislavdekovic.iz.hr"/> 
+<link rel="shortcut icon" href="../favicon.ico" />
+<link href="../dizajn/print.css" rel="stylesheet" type="text/css" media="print" />
+<link href="../dizajn/css.css" rel="stylesheet" type="text/css" media="screen" />
+<script src="../dizajn/jquery.js" type="text/javascript"></script>
+<script src="../dizajn/jquery.plugins.js" type="text/javascript"></script>
+<script src="../dizajn/js.js" type="text/javascript"></script>
+<!-- TemplateBeginEditable name="doctitle" --><title>VK Croatia Turanj</title><!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div class="kontejner">
+	<div class="vrh">
+		<a href="../index.html"><span>VK Croatia Turanj</span></a>
+	</div>
+	<!-- TemplateBeginEditable name="zaglavlje" -->
+	<div class="zaglavlje" style="background: url(../dizajn/hSIDRUN.jpg) no-repeat;"></div>
+	<!-- TemplateEndEditable -->
+	<div class="navigacija">
+		<h1><a href="../index.html" title="" style="display: block;">Hrvatski </a></h1>
+		<ul>
+			<li><a href="../index-en.html">News</a></li>
+			<li><a href="../juniori-en.html">Seniors</a></li>
+<!--			<li><a href="../kadeti-en.html">Cadets</a></li>		-->
+			<li><a href="../o_klubu-en.html">About club </a></li>
+			<li><a href="../o_turnju-en.html">About Turanj</a></li>
+			<li><a href="../o_vaterpolu-en.html">About water polo</a></li>
+			<li><a href="../waterpolorules.pdf">Water polo rules </a></li>
+			<li><a href="../linkovi-en.html">Links</a></li>
+			<li><a href="../kontakt-en.html">Contact</a></li>
+			<li><a href="../fotogalerija-en.html">Photo gallery </a></li>
+		</ul>
+	</div>
+<!-- TemplateBeginEditable name="sadrzaj" -->
+	<div class="glavniSadrzaj">
+      <div class="clanak">
+        <div class="datum">
+          <div>&nbsp;</div>
+          <span>&nbsp;</span> </div>
+        <div class="sadrzajClanka">
+          <h1>naslov</h1>
+          <div class="tekst">
+            <p>tekst <a href="../index.html">link</a> tekst </p>
+          </div>
+        </div>
+      </div>
+	  <div class="clanak">
+        <div class="datum">
+          <div>&nbsp;</div>
+          <span>&nbsp;</span> </div>
+	    <div class="sadrzajClanka">
+          <h1>naslov</h1>
+	      <div class="tekst">
+            <blockquote>
+              <p>napomena</p>
+            </blockquote>
+	        <p>nabrajanje : </p>
+	        <ul>
+              <li>brljbrlj</li>
+	          <li>blablabla</li>
+            </ul>
+	        <p>tekst</p>
+          </div>
+        </div>
+      </div>
+    </div>
+	<!-- TemplateEndEditable -->
+	<div class="zadnjiRED"><span>&nbsp;</span></div>
+  <div class="podnozje">
+		<span style="float:left;">&nbsp;<a href="javascript:window.print();" title="Ispiši ovu stranicu">print</a></span>
+		<span style="float:right;margin-right:208px;"><a href="#" title="Povratak na početak stranice">top</a></span><br />
+	  <span class="cprght"><a href="http://www.tomislavdekovic.iz.hr/">&copy;&nbsp;..::sheshnjak::..</a></span>	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+/* design by ..::sheshnjak ::..
+/* standard elements */
+* { margin: 0; padding: 0;}
+a:link { color: #000000; text-decoration: underline; font-weight: bold;}
+a:visited { text-decoration: underline; font-weight: bold;}
+a:hover { text-decoration: underline; font-weight: bold;}
+a:active { text-decoration: underline; font-weight: bold;}
+body {
+	background: #FFFFFF;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.6em;
+}
+p,cite,code,ul { font-size: 1.2em; padding-bottom: 1.2em;}
+ul { margin-left: 1.2em;}
+blockquote {	/* napomena ispod slike */
+	background: #EFFECC;
+	color: #555555;
+	display: block;
+	clear: both;
+	font-size: 1em;
+	margin-bottom: 1.2em;
+	margin-top: -20px;
+	padding: 5px;
+}
+h1,h2,h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	letter-spacing: -0.25pt;
+	color: #000000;
+}
+h2 { font-size: 1.9em; margin: 0.75em 0 0.5em 0;}
+h3 { font-size: 1.75em; font-weight: lighter; margin: 0.75em 0 0.5em 0;}
+img { border: none;}
+
+/* glavni kontejner */
+.kontejner {
+	margin: 0 auto;
+	width: 702px;
+}
+
+/* vrh */
+.vrh {
+	display: none;
+}
+
+/* zaglavlje */
+.zaglavlje {
+	display: none;
+}
+
+/* glavniSadrzaj */
+.glavniSadrzaj {float: left;}
+
+/* clanak */
+.clanak {clear: both;}
+.clanak .datum {
+	background: url(datum.png) no-repeat;
+	color: #888888;
+	float: left;
+	height: 40px;
+	text-align: center;
+	width: 36px;
+}
+.clanak .datum div { padding-top: 4px; text-transform: uppercase;}
+.clanak .datum span { font-size: 1.9em; font-family: Georgia, "Times New Roman", Times, serif;}
+.clanak .sadrzajClanka {
+	float: left;
+}
+.clanak h1 {
+	background: #2086CA;
+	color: #FFFFFF;
+	line-height: 40px;
+	padding-left: 16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 2em;
+	letter-spacing: -0.2pt;
+}
+.clanak .tekst {
+	padding: 12px 18px;
+	text-align: justify;
+}
+.clanak .tekst .slikaXXL { margin-left: -13px;}
+.clanak .tekst img { padding: 5px;}
+
+/* navigacija */
+.navigacija {
+	display: none;
+}
+/* misc */
+.zadnjiRED {clear: both;}
+
+/* podnozje */
+.podnozje {
+	display: none;
+}
